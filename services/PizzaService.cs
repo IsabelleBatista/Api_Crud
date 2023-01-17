@@ -1,6 +1,6 @@
 using _ContosoPizza.Models;
 
-namespace _ContosoPizza;
+namespace _ContosoPizza.Services;
 
 public static class PizzaService
 {
@@ -11,7 +11,7 @@ public static class PizzaService
         Pizzas = new List<Pizza>
         {
             new Pizza {Id = 1, Name = "Italian Classic", IsGlutenFree = false},
-            new Pizza {Id = 1, Name = "Mozzarela", IsGlutenFree = true}
+            new Pizza {Id = 2, Name = "Mozzarela", IsGlutenFree = true}
         };
 
     }
